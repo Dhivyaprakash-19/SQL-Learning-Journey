@@ -1,0 +1,69 @@
+# Day 2 - SQL Command Types
+
+Today I learned about the different categories of SQL commands and their purposes.
+
+## DDL (Data Definition Language)
+Used to define and modify database structures.
+
+Commands:
+- CREATE
+- ALTER
+- DROP
+
+## DML (Data Manipulation Language)
+Used to manage data within tables.
+
+Commands:
+- INSERT
+- UPDATE
+- DELETE
+
+## DQL (Data Query Language)
+Used to retrieve data.
+
+Commands:
+- SELECT
+
+## DCL (Data Control Language)
+Used to control access and permissions.
+
+Commands:
+- GRANT
+- REVOKE
+
+## TCL (Transaction Control Language)
+Used to manage transactions.
+
+Commands:
+- COMMIT
+- ROLLBACK
+
+## Key Takeaway
+SQL commands are grouped based on their purpose, making database management organized and efficient.
+
+
+-- DDL
+CREATE TABLE Employees (
+    emp_id INT PRIMARY KEY,
+    emp_name VARCHAR(50)
+);
+
+-- DML
+INSERT INTO Employees VALUES (1, 'John');
+
+UPDATE Employees
+SET emp_name = 'Johnny'
+WHERE emp_id = 1;
+
+DELETE FROM Employees
+WHERE emp_id = 1;
+
+-- DQL
+SELECT * FROM Employees;
+
+-- DCL
+GRANT SELECT ON Employees TO user1;
+
+-- TCL
+COMMIT;
+ROLLBACK;
