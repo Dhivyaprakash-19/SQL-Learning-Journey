@@ -1,1 +1,33 @@
 
+# Day 3 - DDL Commands
+
+## Topics Covered
+- CREATE
+- ALTER
+- TRUNCATE
+- DROP
+
+## What I Practiced
+
+### CREATE
+Creating tables with different data types.
+
+### ALTER
+Adding, modifying, and deleting columns.
+
+### TRUNCATE
+Removing all records while keeping the table structure.
+
+### DROP
+Deleting tables permanently.
+
+## Key Takeaway
+DDL (Data Definition Language) commands are used to define and manage the structure of database objects.
+
+## Commands Practiced
+- CREATE TABLE
+- ALTER TABLE ADD COLUMN
+- ALTER TABLE MODIFY COLUMN
+- ALTER TABLE DROP COLUMN
+- TRUNCATE TABLE
+- DROP TABLE
