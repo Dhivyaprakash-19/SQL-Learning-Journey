@@ -1,1 +1,22 @@
+Topics Covered
+USE – Selecting a database
+SELECT – Retrieving data from tables
+FROM – Specifying the source table
+WHERE – Filtering records
+AND and OR operators
+LIKE operator for pattern matching
+AS keyword for column aliases
+Comparison operators (=, >)
+Arithmetic expressions in queries
+Selecting single and multiple columns
+Basic UPDATE statement concepts
 
+Practice Queries
+Retrieve employee details
+Filter records based on multiple conditions
+Use aliases for better readability
+Search records using wildcard patterns
+Perform arithmetic operations on column values
+
+Tools Used: MySQL Workbench
+Database: Employee Database
