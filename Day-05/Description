@@ -1,0 +1,17 @@
+Topics Covered
+WHERE clause
+BETWEEN operator
+LIKE operator
+IN and NOT IN operators
+Logical operators (AND, OR)
+Comparison operators
+Arithmetic expressions in SELECT statements
+
+Hands-on Queries
+Filter employees based on department.
+Retrieve records within a salary range.
+Pattern matching using LIKE.
+Select records using multiple conditions.
+Perform basic calculations on salary values.
+
+This folder contains the query descriptions and screenshots of hands-on practice performed in MySQL Workbench.
