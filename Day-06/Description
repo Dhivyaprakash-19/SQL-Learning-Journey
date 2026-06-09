@@ -1,0 +1,26 @@
+Short Description
+
+Learned and practiced MySQL string functions (TRIM(), LTRIM(), RTRIM()) to remove unwanted spaces and clean text data.
+
+README Description
+# Day X - MySQL String Functions
+
+Today's practice focused on string manipulation functions in MySQL.
+
+## Topics Covered
+- TRIM()
+- LTRIM()
+- RTRIM()
+
+## Sample Queries
+
+```sql
+SELECT TRIM('   hello   ');
+SELECT LTRIM('   hello hello   ');
+SELECT RTRIM('hello hello   ');
+SELECT TRIM('*' FROM '***hello***');
+Key Takeaway
+
+Even extra spaces matter! These functions help clean and format text data efficiently.
+
+
